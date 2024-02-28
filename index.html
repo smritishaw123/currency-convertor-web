@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="color: #7334b8">Currency-Converter</h1>
+    <div class="converter">
+        <input type="number" id="from-amount" placeholder="Enter Amount" style="background-color: #e0e0e0; border: 1px solid #ccc">
+        <select id="from-currency" style="background-color: #e0e0e0; border: 1px solid #ccc">
+            <option value="USD">USD - US Dollar</option>
+            <option value="EUR">EUR - Euro</option>
+            <option value="JPY">JPY - Japanese Yen</option>
+        </select>
+        <span class="equal" style="color: #7334b8">=</span>
+        <input type="number" id="to-amount" disabled style="background-color: #e0e0e0; border: 1px solid #ccc">
+        <select id="to-currency" style="background-color: #e0e0e0; border: 1px solid #ccc">
+            <option value="USD">USD - US Dollar</option>
+            <option value="EUR">EUR - Euro</option>
+            <option value="JPY">JPY - Japanese Yen</option>
+        </select>
+        <button id="convert-btn" style="background-color: #ba87da; color: white; border: none; padding: 10px 20px; cursor: pointer;">Convert</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 50px auto;
+    background-color: #f5f3f8; /* Lavender background */
+}
+
+.converter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.converter input, .converter select {
+    padding: 10px;
+}
+
+.converter button {
+    cursor: pointer;
+}
